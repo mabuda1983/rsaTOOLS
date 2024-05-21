@@ -1,7 +1,7 @@
 six
 cryptography==3.3.2
-urllib3==1.26.5
-requests==2.25.1
+urllib3==1.26.18
+requests==2.31.0
 gmpy==1.17
 gmpy2==2.1.2
 pycryptodome==3.10.4
@@ -10,3 +10,4 @@ z3-solver
 bitarray
 psutil==5.9.4
 factordb-pycli
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
