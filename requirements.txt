@@ -10,3 +10,4 @@ z3-solver
 bitarray
 psutil==5.9.4
 factordb-pycli
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
